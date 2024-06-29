@@ -12,8 +12,8 @@
         "lint": "eslint . --ext ts,tsx"
     },
     "dependencies": {
-        "@acme/api": "*",
-        "@acme/tailwind-config": "*",
+        "@acme/api": "workspace:*",
+        "@acme/tailwind-config": "workspace:*",
         "@clerk/clerk-expo": "^0.17.7",
         "@shopify/flash-list": "^1.4.0",
         "@tanstack/react-query": "^4.16.1",
