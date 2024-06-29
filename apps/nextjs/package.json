@@ -12,9 +12,9 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@acme/api": "*",
-    "@acme/db": "*",
-    "@acme/tailwind-config": "*",
+    "@acme/api": "workspace:*",
+    "@acme/db": "workspace:*",
+    "@acme/tailwind-config": "workspace:*",
     "@clerk/nextjs": "^4.29.3",
     "@tanstack/react-query": "^4.16.1",
     "@trpc/client": "^10.1.0",
